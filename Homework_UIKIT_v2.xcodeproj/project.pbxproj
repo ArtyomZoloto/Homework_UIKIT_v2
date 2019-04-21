@@ -13,6 +13,7 @@
 		883B1A99226B8EA300ED5553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883B1A98226B8EA300ED5553 /* Assets.xcassets */; };
 		883B1A9C226B8EA300ED5553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883B1A9A226B8EA300ED5553 /* LaunchScreen.storyboard */; };
 		883B1A9F226B8EA300ED5553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883B1A9E226B8EA300ED5553 /* main.m */; };
+		883B1AA7226B8EB400ED5553 /* AZRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 883B1AA6226B8EB400ED5553 /* AZRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		883B1A9B226B8EA300ED5553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883B1A9D226B8EA300ED5553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		883B1A9E226B8EA300ED5553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		883B1AA5226B8EB400ED5553 /* AZRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZRect.h; sourceTree = "<group>"; };
+		883B1AA6226B8EB400ED5553 /* AZRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				883B1A9A226B8EA300ED5553 /* LaunchScreen.storyboard */,
 				883B1A9D226B8EA300ED5553 /* Info.plist */,
 				883B1A9E226B8EA300ED5553 /* main.m */,
+				883B1AA5226B8EB400ED5553 /* AZRect.h */,
+				883B1AA6226B8EB400ED5553 /* AZRect.m */,
 			);
 			path = Homework_UIKIT_v2;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883B1AA7226B8EB400ED5553 /* AZRect.m in Sources */,
 				883B1A94226B8EA100ED5553 /* ViewController.m in Sources */,
 				883B1A9F226B8EA300ED5553 /* main.m in Sources */,
 				883B1A91226B8EA100ED5553 /* AppDelegate.m in Sources */,
@@ -286,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2B4X9FGD4;
 				INFOPLIST_FILE = Homework_UIKIT_v2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2B4X9FGD4;
 				INFOPLIST_FILE = Homework_UIKIT_v2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
